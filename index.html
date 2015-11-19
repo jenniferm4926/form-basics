@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Form Basics</title>
+    <title>Basic Information</title>
     <meta charset="utf-8">
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Crimson+Text' rel='stylesheet' type='text/css'>
@@ -22,17 +22,31 @@
             <input type="email" name="email"><br>
             
             <!--add your own inputs below-->
-            
-            
-            
-            
-            
+            <p>What are your favorite colours from below?</p>
+            <input type="checkbox" name="favoriteColour" value = "colour"> red
+            <input type="checkbox" name="favoriteColour2" value = "colour"> blue
+            <input type="checkbox" name="favoriteColour3" value = "colour"> purple
+            <input type="checkbox" name="favoriteColour4" value = "colour"> yellow
+            <br>
+        <p>How old are you?
+        <input type="text" name="age"> 
+        </p> 
+           <p>
+              Gender?
+               <input type="radio" name="gender" value = "male"> Male
+            <input type="radio" name = 'gender' value = 'female'> Female
+            </p>
             
             
             
             <!--add your own inputs above-->
             
             <input class="blue-button"type="submit" value="Submit">
+        <select name = "pets">
+            <option value = "dog" selected>Doggies</option>
+            <option value = "cat"> Cats</option>
+            <option value = "turtle"> Turtle</option>
+        </select>
         </form>
     </div>
 </body>
